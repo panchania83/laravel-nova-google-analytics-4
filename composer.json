@@ -27,14 +27,14 @@
     },
     "autoload": {
         "psr-4": {
-            "Panchania83\\LaravelNovaGoogleAnalytics4": "src/"
+            "panchania83\\LaravelNovaGoogleAnalytics4": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Panchania83\\LaravelNovaGoogleAnalytics4\\ToolServiceProvider",
-                "Panchania83\\LaravelNovaGoogleAnalytics4\\CardServiceProvider"
+                "panchania83\\LaravelNovaGoogleAnalytics4\\ToolServiceProvider",
+                "panchania83\\LaravelNovaGoogleAnalytics4\\CardServiceProvider"
             ]
         }
     },

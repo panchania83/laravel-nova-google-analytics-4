@@ -54,8 +54,8 @@ public function cards()
 {
     return [
         // ...
-        new \Panchania83\LaravelNovaGoogleAnalytics4\VisitorsMetric,
-        new \Panchania83\LaravelNovaGoogleAnalytics4\GoogleAnalyticsCard,
+        new \panchania83\LaravelNovaGoogleAnalytics4\VisitorsMetric,
+        new \panchania83\LaravelNovaGoogleAnalytics4\GoogleAnalyticsCard,
     ];
 }
 ```

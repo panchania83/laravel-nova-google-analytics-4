@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-use Panchania83\LaravelNovaGoogleAnalytics4\Http\Controllers\GoogleAnalytics4Controller;
+use panchania83\LaravelNovaGoogleAnalytics4\Http\Controllers\GoogleAnalytics4Controller;
 /*
 |--------------------------------------------------------------------------
 | Card API Routes

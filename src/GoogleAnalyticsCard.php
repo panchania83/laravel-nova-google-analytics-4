@@ -1,6 +1,6 @@
 <?php
 
-namespace Panchania83\LaravelNovaGoogleAnalytics4;
+namespace panchania83\LaravelNovaGoogleAnalytics4;
 
 use Laravel\Nova\Card;
 

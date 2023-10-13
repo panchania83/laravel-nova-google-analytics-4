@@ -1,6 +1,6 @@
 <?php
 
-namespace Panchania83\LaravelNovaGoogleAnalytics4\Http\Controllers;
+namespace panchania83\LaravelNovaGoogleAnalytics4\Http\Controllers;
 
 use Google\Analytics\Data\V1beta\BetaAnalyticsDataClient;
 use Google\Analytics\Data\V1beta\DateRange;
