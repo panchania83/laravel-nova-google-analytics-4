@@ -3,7 +3,8 @@
     "description": "Google Analytics 4 integration with Laravel Nova",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "Google Analytics 4"
     ],
     "homepage": "https://github.com/panchania83/laravel-nova-google-analytics-4",
     "license": "MIT",
@@ -15,8 +16,7 @@
         }
     ],
     "require": {
-        "php": ">=7.1.0",
-        "laravel/nova": "*",
+        "php": ">=7.4",
         "google/analytics-data": "^0.11.1"
     },
     "autoload": {
@@ -35,6 +35,5 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    "minimum-stability": "dev"
 }
