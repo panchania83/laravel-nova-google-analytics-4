@@ -1,5 +1,6 @@
 # Google Analytics integration with Laravel Nova
 
+[![Latest Stable Version](http://poser.pugx.org/panchania83/laravel-nova-google-analytics-4/v)](https://packagist.org/packages/panchania83/laravel-nova-google-analytics-4) [![Total Downloads](http://poser.pugx.org/panchania83/laravel-nova-google-analytics-4/downloads)](https://packagist.org/packages/panchania83/laravel-nova-google-analytics-4) [![License](http://poser.pugx.org/panchania83/laravel-nova-google-analytics-4/license)](https://packagist.org/packages/panchania83/laravel-nova-google-analytics-4) [![PHP Version Require](http://poser.pugx.org/panchania83/laravel-nova-google-analytics-4/require/php)](https://packagist.org/packages/panchania83/laravel-nova-google-analytics-4)
 ## Installation
 
 You can install the package in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
