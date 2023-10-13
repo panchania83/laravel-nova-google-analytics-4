@@ -1,0 +1,46 @@
+{
+    "name": "panchania83/laravel-nova-google-analytics-4",
+    "description": "Google Analytics 4 integration with Laravel Nova",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../nova"
+        }
+    ],
+    "homepage": "https://github.com/panchania83/laravel-nova-google-analytics-4",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panchani Ankit",
+            "email": "panchania83@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*",
+        "google/analytics-data": "^0.11.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Panchania83\\LaravelNovaGoogleAnalytics4": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Panchania83\\LaravelNovaGoogleAnalytics4\\ToolServiceProvider",
+                "Panchania83\\LaravelNovaGoogleAnalytics4\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
