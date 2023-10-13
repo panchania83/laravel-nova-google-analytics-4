@@ -5,12 +5,6 @@
         "laravel",
         "nova"
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/panchania83/laravel-nova-google-analytics-4"
-        }
-    ],
     "homepage": "https://github.com/panchania83/laravel-nova-google-analytics-4",
     "license": "MIT",
     "authors": [
