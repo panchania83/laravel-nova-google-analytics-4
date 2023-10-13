@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "panchania83\\LaravelNovaGoogleAnalytics4": "src/"
+            "panchania83\\LaravelNovaGoogleAnalytics4\\": "src/"
         }
     },
     "extra": {
