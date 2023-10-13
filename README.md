@@ -38,7 +38,7 @@ return [
 Also add this to the `.env` for your Nova app:
 
 ```ini
-ANALYTICS_PROPERTY_ID=
+PROPERTY_ID=
 ```
 
 
