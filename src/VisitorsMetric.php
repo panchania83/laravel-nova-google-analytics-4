@@ -68,6 +68,7 @@ class VisitorsMetric extends Value
                 ],
                 'metrics' => [
                     (new Metric())->setName('activeUsers'),
+                    (new Metric())->setName('newUsers'),
                 ],
                 // 'limit' => 5,
             ]);
@@ -76,6 +77,7 @@ class VisitorsMetric extends Value
             $daydata = [];
             foreach ($response->getRows() as $row) {
                 $daydata[] = $row->getMetricValues()[0]->getValue();
+                $daydata[] = $row->getMetricValues()[1]->getValue();
             }
 
             if (count($daydata) == 2) {
@@ -119,6 +121,7 @@ class VisitorsMetric extends Value
                 ],
                 'metrics' => [
                     (new Metric())->setName('activeUsers'),
+                    (new Metric())->setName('newUsers'),
                 ],
                 // 'limit' => 5,
             ]);
@@ -127,6 +130,7 @@ class VisitorsMetric extends Value
             $daydata = [];
             foreach ($response->getRows() as $row) {
                 $daydata[] = $row->getMetricValues()[0]->getValue();
+                $daydata[] = $row->getMetricValues()[1]->getValue();
             }
 
             if (count($daydata) == 2) {
@@ -170,6 +174,7 @@ class VisitorsMetric extends Value
                 ],
                 'metrics' => [
                     (new Metric())->setName('activeUsers'),
+                    (new Metric())->setName('newUsers'),
                 ],
                 // 'limit' => 5,
             ]);
@@ -178,6 +183,7 @@ class VisitorsMetric extends Value
             $daydata = [];
             foreach ($response->getRows() as $row) {
                 $daydata[] = $row->getMetricValues()[0]->getValue();
+                $daydata[] = $row->getMetricValues()[1]->getValue();
             }
 
             if (count($daydata) == 2) {
